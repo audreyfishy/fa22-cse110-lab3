@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-[index](https://audreyfishy.github.io/CSE110_Lab_2/)
+[Link to the page](https://audreyfishy.github.io/CSE110_Lab_2/)
