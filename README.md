@@ -1,1 +1,1 @@
-[Link to the page](https://audreyfishy.github.io/CSE110_Lab_2/)
+[Link to the page](https://audreyfishy.github.io/fa22-cse110-lab3/)
