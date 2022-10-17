@@ -1,0 +1,75 @@
+/*Lab 3*/
+body{
+  background-color: black;
+}
+@media (min-width: 1000px){
+  body{
+    background-color: #F5F5F5;
+  }
+}
+*{
+  font-family: "Henny Penny";
+}
+#attandanceList{
+  border-style: dotted;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 1%;
+  height: auto;
+  width: 50%;
+  max-width: fit-content;
+  min-width: fit-content;
+}
+#attandanceList :hover{
+  background-color: red;
+}
+#aggendaList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+#unfinishedList{
+  display: grid;
+  grid-template-rows: 100px 50px;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas: "areaA areaB";
+}
+.item1{
+  grid-area: areaA;
+}
+.item2{
+  grid-area: areaB;
+}
+#John{
+  color: green;
+  margin-left: 10px;
+  padding-top: 10px;
+  text-decoration: underline;
+  position: absolute;
+}
+#Noel{
+  color: rgb(51, 142, 154);
+  margin: 1em 1em 1em 1em;
+  padding: 1inch 1inch 1inch 1inch;
+  display: block;
+  position: relative;
+}
+#Vivi{
+  color: hsl(0, 100%, 50%);
+  margin: auto;
+  text-align: center;
+  display: inline;
+}
+#submitButton :active{
+  background-color: blue;
+}
+button, select{
+  color:aqua
+}
+input[list=dataset]{
+  color: red;
+}
+footer > a{
+  color: wheat;
+}
